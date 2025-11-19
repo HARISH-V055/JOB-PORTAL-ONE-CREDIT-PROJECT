@@ -1,0 +1,22 @@
+{
+  "name": "job-portal-mern",
+  "version": "1.0.0",
+  "description": "Full-stack Job Portal application built with MERN stack",
+  "main": "index.js",
+  "scripts": {
+    "install-all": "cd backend && npm install && cd ../frontend && npm install",
+    "backend": "cd backend && npm run dev",
+    "frontend": "cd frontend && npm start",
+    "dev": "echo Please run 'npm run backend' in one terminal and 'npm run frontend' in another terminal"
+  },
+  "keywords": [
+    "job-portal",
+    "mern",
+    "react",
+    "nodejs",
+    "mongodb",
+    "express"
+  ],
+  "author": "",
+  "license": "MIT"
+}
